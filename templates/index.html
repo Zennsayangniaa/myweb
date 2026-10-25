@@ -1,0 +1,202 @@
+
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>Untuk Dania Kamila ❤️</title>
+
+    <link rel="stylesheet"
+          href="{{ url_for('static', filename='style.css') }}">
+</head>
+
+<body>
+
+    <!-- Animasi hati -->
+    <div id="hearts"></div>
+
+    <!-- Halaman utama -->
+    <main class="container">
+
+        <div class="top-heart">
+            💗
+        </div>
+
+        <p class="small-title">
+            A LITTLE LOVE STORY
+        </p>
+
+        <h1>
+            Untuk Kamu,<br>
+            <span class="name">
+                Dania Kamila
+            </span>
+        </h1>
+
+        <div class="divider">
+            <span>♡</span>
+        </div>
+
+        <p class="intro">
+            Hai, Dania...
+
+            <br><br>
+
+            Aku membuat website kecil ini khusus untuk kamu.
+            Mungkin sederhana, tetapi setiap kata di dalamnya
+            datang dari hati yang tulus menyayangimu.
+        </p>
+
+        <!-- Foto kalian -->
+        <div class="photo-frame">
+
+            <img
+                src="{{ url_for('static', filename='foto.jpg') }}"
+                alt="Kenangan bersama Dania"
+                onerror="this.style.display='none'"
+            >
+
+            <div class="photo-placeholder">
+                <span>💑</span>
+                <p>Our Little Memories</p>
+            </div>
+
+        </div>
+
+        <p class="photo-caption">
+            My favorite person in the whole world ❤️
+        </p>
+
+        <!-- Tombol surat -->
+        <button id="openLetter">
+            💌 Buka Surat Untuk Dania
+        </button>
+
+        <!-- Surat cinta -->
+        <section class="letter" id="letter">
+
+            <div class="letter-decoration">
+                🌷
+            </div>
+
+            <h2>
+                Untuk Dania Kamila
+            </h2>
+
+            <p class="greeting">
+                Hai, sayangku...
+            </p>
+
+            <p>
+                Aku tidak tahu harus mulai dari mana,
+                karena rasanya ada begitu banyak hal
+                yang ingin aku sampaikan kepadamu.
+            </p>
+
+            <p>
+                Dania, terima kasih sudah hadir dalam hidupku.
+                Terima kasih karena telah menjadi seseorang
+                yang membuat hari-hariku terasa lebih indah.
+            </p>
+
+            <p>
+                Kamu mungkin tidak selalu menyadari betapa
+                berharganya dirimu bagiku. Namun, setiap kali
+                aku mengingatmu, ada kebahagiaan kecil
+                yang selalu muncul di hatiku.
+            </p>
+
+            <p>
+                Aku suka caramu tersenyum.
+                Aku suka caramu bercerita.
+                Aku suka setiap hal kecil tentang dirimu,
+                bahkan hal-hal sederhana yang mungkin
+                tidak pernah kamu anggap istimewa.
+            </p>
+
+            <p>
+                Aku tahu, hubungan kita tidak selalu
+                akan berjalan dengan sempurna.
+                Akan ada hari-hari yang sulit,
+                ada perbedaan pendapat,
+                dan mungkin ada saatnya kita merasa lelah.
+            </p>
+
+            <p>
+                Tetapi aku berharap,
+                kita selalu bisa saling memahami,
+                saling menjaga,
+                dan saling menguatkan.
+            </p>
+
+            <p>
+                Aku ingin menjadi seseorang
+                yang bisa kamu percaya.
+                Seseorang yang selalu mendengarkan ceritamu.
+                Seseorang yang ikut bahagia ketika kamu bahagia,
+                dan menemanimu ketika dunia terasa berat.
+            </p>
+
+            <p>
+                Dania Kamila,
+                jika suatu hari kamu merasa tidak cukup baik,
+                ingatlah bahwa di mataku,
+                kamu adalah seseorang yang sangat berharga.
+            </p>
+
+            <p>
+                Terima kasih sudah menjadi bagian
+                dari cerita hidupku.
+                Semoga kita bisa terus menciptakan
+                banyak kenangan indah bersama.
+            </p>
+
+            <p class="special-message">
+                Kamu adalah salah satu alasan
+                mengapa hari-hariku terasa istimewa.
+            </p>
+
+            <div class="letter-ending">
+
+                <p>
+                    I love you, Dania Kamila.
+                </p>
+
+                <span>
+                    Always and forever ❤️
+                </span>
+
+            </div>
+
+            <p class="signature">
+                Dengan penuh cinta,<br>
+                Seseorang yang menyayangimu.
+            </p>
+
+        </section>
+
+        <!-- Pesan penutup -->
+        <div class="bottom-message">
+
+            <p>
+                Made with love, especially for
+            </p>
+
+            <h2>
+                DANIA KAMILA 💖
+            </h2>
+
+        </div>
+
+    </main>
+
+    <script src="{{ url_for('static', filename='script.js') }}">
+    </script>
+
+</body>
+
+</html>
